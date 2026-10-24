@@ -5,6 +5,7 @@
     "module": "nodenext",
     "lib": ["ES2024", "DOM"],
     "types": ["node"],
+    "declaration": true,
     "outDir": "./dist",
     "rootDir": "./src",
     "esModuleInterop": true,
