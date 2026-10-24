@@ -1,4 +1,4 @@
-import type { Store } from "./types/index.js";
+import type { Store } from "../types/index.js";
 
 export class RAMCache implements Store {
   private cache = new Map<string, unknown>();
