@@ -1,4 +1,4 @@
-import { RAMCache } from "../ram-cache/ramCache.js";
+import { RAMCache } from "../ram-cache/index.js";
 import type { Options, Store } from "../types/index.js";
 
 export class TierCache implements Store {
